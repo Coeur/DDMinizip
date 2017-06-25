@@ -7,28 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B429BBD31594A4130061DADF /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBC61594A4130061DADF /* crypt.h */; };
-		B429BBD41594A4130061DADF /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBC61594A4130061DADF /* crypt.h */; };
-		B429BBD51594A4130061DADF /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBC71594A4130061DADF /* ioapi.c */; };
-		B429BBD61594A4130061DADF /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBC71594A4130061DADF /* ioapi.c */; };
-		B429BBD71594A4130061DADF /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBC81594A4130061DADF /* ioapi.h */; };
-		B429BBD81594A4130061DADF /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBC81594A4130061DADF /* ioapi.h */; };
-		B429BBDD1594A4130061DADF /* miniunz.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBCB1594A4130061DADF /* miniunz.c */; };
-		B429BBDE1594A4130061DADF /* miniunz.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBCB1594A4130061DADF /* miniunz.c */; };
-		B429BBDF1594A4130061DADF /* minizip.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBCC1594A4130061DADF /* minizip.c */; };
-		B429BBE01594A4130061DADF /* minizip.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBCC1594A4130061DADF /* minizip.c */; };
-		B429BBE11594A4130061DADF /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBCD1594A4130061DADF /* mztools.c */; };
-		B429BBE21594A4130061DADF /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBCD1594A4130061DADF /* mztools.c */; };
-		B429BBE31594A4130061DADF /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBCE1594A4130061DADF /* mztools.h */; };
-		B429BBE41594A4130061DADF /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBCE1594A4130061DADF /* mztools.h */; };
-		B429BBE51594A4130061DADF /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBCF1594A4130061DADF /* unzip.c */; };
-		B429BBE61594A4130061DADF /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBCF1594A4130061DADF /* unzip.c */; };
-		B429BBE71594A4130061DADF /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBD01594A4130061DADF /* unzip.h */; };
-		B429BBE81594A4130061DADF /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBD01594A4130061DADF /* unzip.h */; };
-		B429BBE91594A4130061DADF /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBD11594A4130061DADF /* zip.c */; };
-		B429BBEA1594A4130061DADF /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B429BBD11594A4130061DADF /* zip.c */; };
-		B429BBEB1594A4130061DADF /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBD21594A4130061DADF /* zip.h */; };
-		B429BBEC1594A4130061DADF /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = B429BBD21594A4130061DADF /* zip.h */; };
+		9CC230DDDC8F59765A207DE6 /* libPods-host-DDMinizip-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C197A3B6413B9E7C7D3121 /* libPods-host-DDMinizip-IOS.a */; };
 		B4664B471580C70200AB7726 /* DDZippedFileInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B4664B451580C70200AB7726 /* DDZippedFileInfo.h */; };
 		B4664B481580C70200AB7726 /* DDZippedFileInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B4664B451580C70200AB7726 /* DDZippedFileInfo.h */; };
 		B4664B491580C70200AB7726 /* DDZippedFileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4664B461580C70200AB7726 /* DDZippedFileInfo.m */; };
@@ -45,6 +24,7 @@
 		B492A92E157BCD4200184979 /* DDZipWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B492A90D157BCD4200184979 /* DDZipWriter.h */; };
 		B492A92F157BCD4200184979 /* DDZipWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B492A90E157BCD4200184979 /* DDZipWriter.m */; };
 		B492A930157BCD4200184979 /* DDZipWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B492A90E157BCD4200184979 /* DDZipWriter.m */; };
+		D19C7BA14F7C2FA2D0CEC3AC /* libPods-host-DDMinizip-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C3305F375850EA6060B48F /* libPods-host-DDMinizip-OSX.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,17 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B429BBC61594A4130061DADF /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		B429BBC71594A4130061DADF /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		B429BBC81594A4130061DADF /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		B429BBCB1594A4130061DADF /* miniunz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = miniunz.c; sourceTree = "<group>"; };
-		B429BBCC1594A4130061DADF /* minizip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minizip.c; sourceTree = "<group>"; };
-		B429BBCD1594A4130061DADF /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		B429BBCE1594A4130061DADF /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		B429BBCF1594A4130061DADF /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		B429BBD01594A4130061DADF /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		B429BBD11594A4130061DADF /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		B429BBD21594A4130061DADF /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		45C3305F375850EA6060B48F /* libPods-host-DDMinizip-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-host-DDMinizip-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484108181A55C9EB96C71A9B /* Pods-host-DDMinizip-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-host-DDMinizip-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-host-DDMinizip-OSX/Pods-host-DDMinizip-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		5E9335E967FE73D4F53F2D3C /* Pods-host-DDMinizip-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-host-DDMinizip-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-host-DDMinizip-IOS/Pods-host-DDMinizip-IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		719A2CA47F8949BE6B51A74A /* Pods-host-DDMinizip-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-host-DDMinizip-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-host-DDMinizip-IOS/Pods-host-DDMinizip-IOS.release.xcconfig"; sourceTree = "<group>"; };
+		92C197A3B6413B9E7C7D3121 /* libPods-host-DDMinizip-IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-host-DDMinizip-IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4664B451580C70200AB7726 /* DDZippedFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDZippedFileInfo.h; sourceTree = "<group>"; };
 		B4664B461580C70200AB7726 /* DDZippedFileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDZippedFileInfo.m; sourceTree = "<group>"; };
 		B4664B611580DA7600AB7726 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,6 +55,7 @@
 		B492A90C157BCD4200184979 /* DDZipReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDZipReader.m; sourceTree = "<group>"; };
 		B492A90D157BCD4200184979 /* DDZipWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDZipWriter.h; sourceTree = "<group>"; };
 		B492A90E157BCD4200184979 /* DDZipWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDZipWriter.m; sourceTree = "<group>"; };
+		C193AA39CF6CA53431632783 /* Pods-host-DDMinizip-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-host-DDMinizip-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-host-DDMinizip-OSX/Pods-host-DDMinizip-OSX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19C7BA14F7C2FA2D0CEC3AC /* libPods-host-DDMinizip-OSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC230DDDC8F59765A207DE6 /* libPods-host-DDMinizip-IOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,32 +91,35 @@
 		0867D691FE84028FC02AAC07 /* libNews4 */ = {
 			isa = PBXGroup;
 			children = (
-				B429BBC51594A4130061DADF /* minizip */,
 				B4664B6C1580DE9F00AB7726 /* cli */,
 				B492A90A157BCD4200184979 /* src */,
 				B4664B671580DE7700AB7726 /* libDDMinizip-OSX.a */,
 				B4664B681580DE7700AB7726 /* libDDMinizip-IOS.a */,
 				B4664B691580DE7700AB7726 /* DDMinizip-CLI */,
+				3413B2FC277AE9153A1E1385 /* Pods */,
+				B1E0B7D74715B08B938641EB /* Frameworks */,
 			);
 			name = libNews4;
 			sourceTree = "<group>";
 		};
-		B429BBC51594A4130061DADF /* minizip */ = {
+		3413B2FC277AE9153A1E1385 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B429BBC61594A4130061DADF /* crypt.h */,
-				B429BBC71594A4130061DADF /* ioapi.c */,
-				B429BBC81594A4130061DADF /* ioapi.h */,
-				B429BBCB1594A4130061DADF /* miniunz.c */,
-				B429BBCC1594A4130061DADF /* minizip.c */,
-				B429BBCD1594A4130061DADF /* mztools.c */,
-				B429BBCE1594A4130061DADF /* mztools.h */,
-				B429BBCF1594A4130061DADF /* unzip.c */,
-				B429BBD01594A4130061DADF /* unzip.h */,
-				B429BBD11594A4130061DADF /* zip.c */,
-				B429BBD21594A4130061DADF /* zip.h */,
+				5E9335E967FE73D4F53F2D3C /* Pods-host-DDMinizip-IOS.debug.xcconfig */,
+				719A2CA47F8949BE6B51A74A /* Pods-host-DDMinizip-IOS.release.xcconfig */,
+				484108181A55C9EB96C71A9B /* Pods-host-DDMinizip-OSX.debug.xcconfig */,
+				C193AA39CF6CA53431632783 /* Pods-host-DDMinizip-OSX.release.xcconfig */,
 			);
-			path = minizip;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1E0B7D74715B08B938641EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C197A3B6413B9E7C7D3121 /* libPods-host-DDMinizip-IOS.a */,
+				45C3305F375850EA6060B48F /* libPods-host-DDMinizip-OSX.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B4664B521580DA0000AB7726 /* Frameworks */ = {
@@ -184,11 +164,6 @@
 				B492A929157BCD4200184979 /* DDZipReader.h in Headers */,
 				B492A92D157BCD4200184979 /* DDZipWriter.h in Headers */,
 				B4664B471580C70200AB7726 /* DDZippedFileInfo.h in Headers */,
-				B429BBD31594A4130061DADF /* crypt.h in Headers */,
-				B429BBD71594A4130061DADF /* ioapi.h in Headers */,
-				B429BBE31594A4130061DADF /* mztools.h in Headers */,
-				B429BBE71594A4130061DADF /* unzip.h in Headers */,
-				B429BBEB1594A4130061DADF /* zip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,11 +174,6 @@
 				B492A92A157BCD4200184979 /* DDZipReader.h in Headers */,
 				B492A92E157BCD4200184979 /* DDZipWriter.h in Headers */,
 				B4664B481580C70200AB7726 /* DDZippedFileInfo.h in Headers */,
-				B429BBD41594A4130061DADF /* crypt.h in Headers */,
-				B429BBD81594A4130061DADF /* ioapi.h in Headers */,
-				B429BBE41594A4130061DADF /* mztools.h in Headers */,
-				B429BBE81594A4130061DADF /* unzip.h in Headers */,
-				B429BBEC1594A4130061DADF /* zip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B40E9BEB1552EA2000D6FAA5 /* Build configuration list for PBXNativeTarget "DDMinizip-OSX" */;
 			buildPhases = (
+				F4CD5209C4B7ED64889D225E /* [CP] Check Pods Manifest.lock */,
 				B40E9BD91552EA2000D6FAA5 /* Sources */,
 				B40E9BDA1552EA2000D6FAA5 /* Frameworks */,
 				B40E9BDB1552EA2000D6FAA5 /* Headers */,
+				66FFCC3C5BA12AEB5B93B9D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B40E9BFB1552EA7C00D6FAA5 /* Build configuration list for PBXNativeTarget "DDMinizip-IOS" */;
 			buildPhases = (
+				1B7B850DA7C578ECAA512768 /* [CP] Check Pods Manifest.lock */,
 				B40E9BEE1552EA7C00D6FAA5 /* Sources */,
 				B40E9BEF1552EA7C00D6FAA5 /* Frameworks */,
 				B40E9BF01552EA7C00D6FAA5 /* Headers */,
+				A284944167C0A1371535D269 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,6 +263,75 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B7B850DA7C578ECAA512768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-host-DDMinizip-IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FFCC3C5BA12AEB5B93B9D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-host-DDMinizip-OSX/Pods-host-DDMinizip-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A284944167C0A1371535D269 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-host-DDMinizip-IOS/Pods-host-DDMinizip-IOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CD5209C4B7ED64889D225E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-host-DDMinizip-OSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B40E9BD91552EA2000D6FAA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -297,12 +340,6 @@
 				B492A92B157BCD4200184979 /* DDZipReader.m in Sources */,
 				B492A92F157BCD4200184979 /* DDZipWriter.m in Sources */,
 				B4664B491580C70200AB7726 /* DDZippedFileInfo.m in Sources */,
-				B429BBD51594A4130061DADF /* ioapi.c in Sources */,
-				B429BBDD1594A4130061DADF /* miniunz.c in Sources */,
-				B429BBDF1594A4130061DADF /* minizip.c in Sources */,
-				B429BBE11594A4130061DADF /* mztools.c in Sources */,
-				B429BBE51594A4130061DADF /* unzip.c in Sources */,
-				B429BBE91594A4130061DADF /* zip.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,12 +350,6 @@
 				B492A92C157BCD4200184979 /* DDZipReader.m in Sources */,
 				B492A930157BCD4200184979 /* DDZipWriter.m in Sources */,
 				B4664B4A1580C70200AB7726 /* DDZippedFileInfo.m in Sources */,
-				B429BBD61594A4130061DADF /* ioapi.c in Sources */,
-				B429BBDE1594A4130061DADF /* miniunz.c in Sources */,
-				B429BBE01594A4130061DADF /* minizip.c in Sources */,
-				B429BBE21594A4130061DADF /* mztools.c in Sources */,
-				B429BBE61594A4130061DADF /* unzip.c in Sources */,
-				B429BBEA1594A4130061DADF /* zip.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +436,7 @@
 		};
 		B40E9BEC1552EA2000D6FAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484108181A55C9EB96C71A9B /* Pods-host-DDMinizip-OSX.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -433,6 +465,7 @@
 		};
 		B40E9BED1552EA2000D6FAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C193AA39CF6CA53431632783 /* Pods-host-DDMinizip-OSX.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -454,6 +487,7 @@
 		};
 		B40E9BFC1552EA7C00D6FAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9335E967FE73D4F53F2D3C /* Pods-host-DDMinizip-IOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -473,7 +507,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "DDMinizip-IOS";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -482,6 +515,7 @@
 		};
 		B40E9BFD1552EA7C00D6FAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719A2CA47F8949BE6B51A74A /* Pods-host-DDMinizip-IOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -494,7 +528,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "DDMinizip-IOS";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

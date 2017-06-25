@@ -12,9 +12,9 @@
 
 -(id) init
 {
-	if( (self=[super init]) != nil )
+	if( (self = [super init]) != nil )
 	{
-		_zipFile = NULL ;
+		_zipFile = NULL;
 	}
 	return self;
 }
@@ -41,8 +41,8 @@
 	time_t current;
 	time( &current );
 	
-	zip_fileinfo zipInfo = {0};
-	zipInfo.dosDate = (unsigned long) current;
+	zip_fileinfo zipInfo = {0,0,0};
+	zipInfo.dos_date = (unsigned long) current;
 	
     if(!newname)
         newname = file;
@@ -53,13 +53,7 @@
 		NSDate* fileDate = (NSDate*)[attr objectForKey:NSFileModificationDate];
 		if( fileDate )
 		{
-			zipInfo.dosDate = [fileDate timeIntervalSinceDate:[DDZippedFileInfo dateWithTimeIntervalSince1980:0]];
-            zipInfo.tmz_date = [DDZippedFileInfo mzDateWithDate:fileDate];
-            //test
-//            id dtest = [DDZippedFileInfo dateWithMUDate:*((tm_unz*)&zipInfo.tmz_date)];
-//            uLong dt = [dtest timeIntervalSinceDate:[DDZippedFileInfo dateWithTimeIntervalSince1980:0]];
-//            uLong dt2 = ziplocal_TmzDateToDosDate(&zipInfo.tmz_date, dt);
-//            NSLog(@"%@: %u %u %u", fileDate, zipInfo.dosDate, dt, dt2);
+			zipInfo.dos_date = [fileDate timeIntervalSinceDate:[DDZippedFileInfo dateWithTimeIntervalSince1980:0]];
 		}
 	}
 	
@@ -90,9 +84,9 @@
 
 -(BOOL) closeZipFile
 {
-	if( _zipFile==NULL )
+	if( _zipFile == NULL )
 		return NO;
-	BOOL ret =  zipClose( _zipFile,NULL )==Z_OK?YES:NO;
+	BOOL ret =  zipClose( _zipFile,NULL ) == Z_OK ? YES : NO;
 	_zipFile = NULL;
 	return ret;
 }
